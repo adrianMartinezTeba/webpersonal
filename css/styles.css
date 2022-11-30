@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    background-color: rgb(127, 187, 213);
+    flex-direction: column;
+}
+
+header{
+    background-color: rgb(24, 34, 92);
+    margin: 0px;
+}
+
+.navHome>ul{
+    list-style-type: none;
+    display: inline;
+    display: flex;
+
+}
+.navHome>ul>li>a{
+    
+    color: rgb(161, 222, 239);
+    display: inline;
+    display: flex;
+    margin: 10px;
+    text-decoration: none;
+}
+header>nav>ul>li:hover {
+    background-color: #159ae1;
+    color: black;
+}
+.areasfavs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    }
+.secfavs{
+    border: 3px white solid;
+    margin: 10px;
+    width: 45%;
+    background-color: rgb(176, 199, 216);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-bottom: 10px;
+}
+.secfavs>article{
+    margin: 10px;
+
+}
+footer{
+    background-color: rgb(24, 34, 92);
+    color: rgb(161, 222, 239);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.defpag{
+    background-color: rgb(30, 179, 234);
+    display: flex;
+    flex-direction: column;
+}
+.defpag>h1{
+    display: flex;
+    justify-content: center;
+}
+.defpag>p{
+    display: flex;
+    justify-content: center;
+}
